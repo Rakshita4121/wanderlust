@@ -1,0 +1,144 @@
+body{
+    background-color: white;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    flex-grow: 1;
+}
+
+.navbar{
+    height: 4.5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe422d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+    line-height: 3.3rem;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fe422d;
+}
+.f-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8rem;
+    background-color: #ebebeb;
+}
+.f-info-links a{
+    color: #222222;
+    text-decoration: none;
+}
+.f-info-links a:hover{
+    color: #fe422d !important;
+}
+.f-info-socials a{
+    font-size: 1.5rem;
+    margin-right: 5px;
+    color: #222222;
+}
+.f-info-socials a:hover{
+    color: #fe422d !important;
+}
+/* cards */
+.listing-card{
+    border: none;
+}
+.card1{
+    border: none !important; 
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 5px rgb(250, 240, 240);
+    height: 23rem !important;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    height: 18rem;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0;
+}
+.card-text{
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.4;
+    background-color: white;
+}
+.card-text-overlay{
+    position: relative;
+    top: 5rem;
+}
+/* New Listing */
+.add-btn{
+    background-color: #fe422d;
+    border: none;
+    padding: 0.5rem,1rem;
+}
+.form-font{
+    font-weight: 500;
+    font-size: 1.3em; 
+}
+/* Edit Listing */
+.edit-btn{
+    color: #fe422d;
+    background-color: white;
+    border: 1px solid #bbb2b2;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight:900 ;
+    font-size: 1.1em;
+}
+.edit-btn:active{
+    color: white;
+    background-color: #fe422d;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+/* show */
+.show-img{
+    height: 20rem;
+}
+.btns{
+    display: flex;
+}
+.delete-btn{
+    color: #222222;
+    background-color: white;
+    border: 1px solid #bbb2b2;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight:900 ;
+    font-size: 1.1em;
+}
+.delete-btn:active{
+    color: white;
+    background-color:#222222;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+.fontsize{
+    font-size: 1.2rem;
+}
+/*footer{
+    position: absolute;
+    bottom: -200px;
+    width: 100%;
+}*/
